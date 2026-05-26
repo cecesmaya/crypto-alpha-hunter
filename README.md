@@ -1,18 +1,26 @@
-# 🦁 Crypto Alpha Hunter
+## 🦁 Crypto Alpha Hunter v2.0
 
-Real-time cryptocurrency intelligence system for detecting whale movements, arbitrage opportunities, and market alpha before it goes mainstream.
+**Real-time cryptocurrency alpha detection system** — Now with Solana Whale Tracker!
 
 ![Python](https://img.shields.io/badge/Python-3.12+-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 🚀 Features
 
+### 🐋 Whale Tracker (RELEASE)
+- **Solana Smart Money** — Dedicated module for tracking Solana whales
+- **Wallet Profiling** — Classification: INSTITUTION, WHALE, BOT, RETAIL
+- **Position Tracking** — Real-time token holdings + allocation
+- **Trade Parsing** — Extract DEX swaps from on-chain transactions
+- **PnL Estimation** — Track estimated profit/loss
+- **Risk Scoring** — 0-100 risk assessment
+
 ### Core Intelligence
-- **Whale Tracker** — Monitor 500+ whale wallets across chains in real-time
-- **Smart Money Flow** — Detect accumulation/distribution patterns using on-chain data
-- **Mempool Scanner** — Watch pending	txns for sandwich opportunities
-- **Rug Detector** — Honeypot checks, honeypot.is API, GoPlus security scores
-- **Volume Analyzer** — Anomaly detection for unusual trading volume
+- **Whale Tracker** — Monitor 500+ whale wallets across chains
+- **Smart Money Flow** — Accumulation/distribution patterns
+- **Mempool Scanner** — Pending txn for sandwich opportunities
+- **Rug Detector** — Honeypot checks, GoPlus security scores
+- **Volume Analyzer** — Anomaly detection
 
 ### Trading Automation
 - **MEV Bot** — Sandwich attack detection and auto-frontrun
