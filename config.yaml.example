@@ -1,0 +1,54 @@
+# 🦁 Crypto Alpha Hunter - Configuration
+
+# Telegram Bot
+telegram:
+  bot_token: "YOUR_BOT_TOKEN_HERE"
+  alert_chat_ids:
+    - "YOUR_CHAT_ID"
+
+# RPC Endpoints (Get from Alchemy/QuickNode/Infura)
+chains:
+  solana:
+    rpc: "https://api.mainnet-beta.solana.com"
+    ws: "wss://api.mainnet-beta.solana.com"
+  ethereum:
+    rpc: "https://eth-mainnet.alchemyapi.io/v2/YOUR_KEY"
+  base:
+    rpc: "https://base-mainnet.g.alchemy.com/v2/YOUR_KEY"
+  arbitrum:
+    rpc: "https://arb-mainnet.g.alchemy.com/v2/YOUR_KEY"
+  optimism:
+    rpc: "https://opt-mainnet.g.alchemy.com/v2/YOUR_KEY"
+  bsc:
+    rpc: "https://bsc-datasealer.binance.org"
+  avalanche:
+    rpc: "https://api.avax.network/ext/bc/C/rpcc"
+
+# API Keys (Free tiers available)
+apis:
+  honeypot: "YOUR_HONEYPOT_API_KEY"  # honeypot.is
+  goplus: "YOUR_GOPLUS_API_KEY"      # goplus.io
+  dex Screener: "YOUR_DEXSCREENER_KEY"
+
+# Whale Lists (Add your tracked wallets)
+whale_lists:
+  solana:
+    - "7xKXtg2oGsTCF.."
+    - "GDHuAFvzLi.."
+  ethereum:
+    - "0xAb5801a7D.."
+    - "0xdAC17F95.."
+
+# Alert Settings
+alerts:
+  min_volume_usd: 10000       # Min $10K volume
+  min_movement_pct: 50      # Min 50% price move
+  new_pool_alert: true
+  whale_alert: true
+  rug_alert: true
+
+# Scanner Settings
+scanner:
+  poll_interval: 5          # Seconds between polls
+  mempool_check: true
+  history_days: 30
